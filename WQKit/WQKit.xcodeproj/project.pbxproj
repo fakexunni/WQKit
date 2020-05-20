@@ -17,6 +17,7 @@
 		B65944432474CDA400C1A7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65944422474CDA400C1A7EC /* main.m */; };
 		B659444D2474CDA400C1A7EC /* WQKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B659444C2474CDA400C1A7EC /* WQKitTests.m */; };
 		B65944582474CDA400C1A7EC /* WQKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65944572474CDA400C1A7EC /* WQKitUITests.m */; };
+		B659446A2475062A00C1A7EC /* NSObject+WQKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B65944692475062A00C1A7EC /* NSObject+WQKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B65944532474CDA400C1A7EC /* WQKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65944572474CDA400C1A7EC /* WQKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQKitUITests.m; sourceTree = "<group>"; };
 		B65944592474CDA400C1A7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65944682475062A00C1A7EC /* NSObject+WQKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WQKit.h"; sourceTree = "<group>"; };
+		B65944692475062A00C1A7EC /* NSObject+WQKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WQKit.m"; sourceTree = "<group>"; };
 		D98D8BA97B1935E91FA56E4F /* libPods-WQKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,6 +161,8 @@
 		B6594465247505C000C1A7EC /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				B65944682475062A00C1A7EC /* NSObject+WQKit.h */,
+				B65944692475062A00C1A7EC /* NSObject+WQKit.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 			files = (
 				B65944382474CDA100C1A7EC /* ViewController.m in Sources */,
 				B65944322474CDA100C1A7EC /* AppDelegate.m in Sources */,
+				B659446A2475062A00C1A7EC /* NSObject+WQKit.m in Sources */,
 				B65944432474CDA400C1A7EC /* main.m in Sources */,
 				B65944352474CDA100C1A7EC /* SceneDelegate.m in Sources */,
 			);
