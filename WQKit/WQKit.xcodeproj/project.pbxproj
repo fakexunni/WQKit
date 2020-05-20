@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -119,6 +119,9 @@
 		B659442F2474CDA100C1A7EC /* WQKit */ = {
 			isa = PBXGroup;
 			children = (
+				B6594465247505C000C1A7EC /* Foundation */,
+				B6594466247505C000C1A7EC /* UIKit */,
+				B6594467247505C000C1A7EC /* Utils */,
 				B65944302474CDA100C1A7EC /* AppDelegate.h */,
 				B65944312474CDA100C1A7EC /* AppDelegate.m */,
 				B65944332474CDA100C1A7EC /* SceneDelegate.h */,
@@ -152,13 +155,33 @@
 			path = WQKitUITests;
 			sourceTree = "<group>";
 		};
+		B6594465247505C000C1A7EC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B6594466247505C000C1A7EC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B6594467247505C000C1A7EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D36722A6DD26424B4033A6DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				52DF3C771683DC2F7FE2FE79 /* Pods-WQKit.debug.xcconfig */,
 				2B4FB64186E16C3A69722D3C /* Pods-WQKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

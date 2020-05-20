@@ -35,9 +35,6 @@ PODS:
     - SDWebImage/Core (= 5.2.0)
   - SDWebImage/Core (5.2.0)
   - TTTAttributedLabel (2.0.0)
-  - Yoga (1.14.0)
-  - YogaKit (1.18.1):
-    - Yoga (~> 1.14)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -57,7 +54,6 @@ DEPENDENCIES:
   - MJRefresh
   - SDWebImage
   - TTTAttributedLabel
-  - YogaKit
   - YYKit
 
 SPEC REPOS:
@@ -77,8 +73,6 @@ SPEC REPOS:
     - MJRefresh
     - SDWebImage
     - TTTAttributedLabel
-    - Yoga
-    - YogaKit
     - YYKit
 
 SPEC CHECKSUMS:
@@ -97,10 +91,8 @@ SPEC CHECKSUMS:
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   SDWebImage: 609192dcf3898c910a2848032372ead951e66364
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
-  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
-  YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 14272846be6beb65275c1c2cc4a6c05b989c3ca1
+PODFILE CHECKSUM: 886955308a721a46489e2cc474e83ed6f0f8049e
 
 COCOAPODS: 1.8.0

@@ -16,7 +16,6 @@ target 'WQKit' do
   pod 'Masonry'
   pod 'MBProgressHUD'
   pod 'SDWebImage'
-  pod 'YogaKit'
   pod 'KVOController'
   pod 'YYKit'
   pod 'DeviceUtil'
