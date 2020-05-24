@@ -35,4 +35,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
+@interface NSObject (WQProperty)
+
+@end
+
+/**
+ 拦截未实现的消息，避免崩溃
+ */
+@interface NSObject (ExceptionForward)
+
+@end
+
 NS_ASSUME_NONNULL_END
